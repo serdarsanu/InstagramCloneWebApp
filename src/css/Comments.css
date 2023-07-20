@@ -1,0 +1,47 @@
+.comments-container{
+    margin: 0;
+    max-height: 500px;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    align-items: center;
+    bottom: 50px;
+    justify-content: center;
+    position: fixed;
+    width: inherit;
+    border-bottom: 2px solid #9c9c9c26;
+}
+.comments{
+    position: relative;
+    max-height: 470px;
+    overflow: auto;
+}
+.comments ul{
+    max-height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 5px;
+}
+.comments li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    font-size: 13px;
+    list-style: none;
+}
+.comments img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.comments p{
+    display: contents;
+}
+.comments span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 350px;
+}
